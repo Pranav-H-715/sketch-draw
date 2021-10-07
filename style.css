@@ -1,0 +1,30 @@
+body{
+    background: #36D1DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#sketch{
+    float: right;
+    margin-right: 40;
+}
+canvas {
+    border:3px solid black;
+    background-color: aliceblue;
+    margin-top: 150px;
+    border-radius: 20px;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate{
+    from{
+        box-shadow: 1px 1px 1000px red;
+    }
+    to{
+        box-shadow: 1px 1px 1000px #ffae00;
+    }
+}
+h1{
+    margin-left: 150px;
+}
